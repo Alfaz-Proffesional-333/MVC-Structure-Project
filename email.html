@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Validation</title>
+</head>
+<body>
+<h2>Email validation JS</h2>
+
+<form id="emailForm">
+  <label for="mail">Enter your Email:</label>
+  <input type="text" id="mail" name="mail">
+  <input type="submit" name="send" id="send" value="send">
+</form>
+
+<p id="error" style="color: red;"></p>
+
+<script>
+  document.getElementById("emailForm").addEventListener("submit", function(e) {
+    e.preventDefault(); // stop form submit
+
+    var email = document.getElementById("mail").value;
+    var errorMsg = document.getElementById("error");
+
+    // regex for email validation
+    var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!pattern.test(email)) {
+      errorMsg.textContent = "❌ Please enter a valid email address.";
+    } else {
+      errorMsg.textContent = "✅ Valid email!";
+      // you can submit the form here if needed
+      // this.submit();
+    }
+  });
+</script>
+</body>
+</html>
