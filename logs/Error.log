@@ -1,0 +1,286 @@
+[18-Sep-2025 07:50:30 Europe/Berlin] Error: [2] require_once(D:\xampp\htdocs\Nitsan\MVC_Structure\config/../vendor/autoload.php): Failed to open stream: No such file or directory in D:\xampp\htdocs\Nitsan\MVC_Structure\config\Mail.php on line 4
+[18-Sep-2025 07:52:27 Europe/Berlin] Error: [2] file_get_contents(D:\xampp\htdocs\Nitsan\MVC_Structure\.env): Failed to open stream: No such file or directory in D:\xampp\htdocs\Nitsan\MVC_Structure\services\vendor\vlucas\phpdotenv\src\Store\File\Reader.php on line 73
+[18-Sep-2025 07:55:09 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d9443c01a7336-269803169c7sm13423145ad.115 - gsmtp
+
+[18-Sep-2025 07:55:09 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-Sep-2025 07:55:10 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:4080:8392:8f1d:e96f:cfaf:8492:dc8d]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Sep-2025 07:55:10 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[18-Sep-2025 07:55:10 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-Sep-2025 07:55:11 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-Sep-2025 07:55:12 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:4080:8392:8f1d:e96f:cfaf:8492:dc8d]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Sep-2025 07:55:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[18-Sep-2025 07:55:12 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Sep-2025 07:55:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-Sep-2025 07:55:12 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Sep-2025 07:55:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-Sep-2025 07:55:13 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-Sep-2025 07:55:13 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<akfreelancer786@gmail.com>
+
+[18-Sep-2025 07:55:13 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d9443c01a7336-269803169c7sm13423145ad.115 - gsmtp
+
+[18-Sep-2025 07:55:13 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: RCPT TO:<alfazkhokhar333@gmail.com>
+
+[18-Sep-2025 07:55:13 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d9443c01a7336-269803169c7sm13423145ad.115 - gsmtp
+
+[18-Sep-2025 07:55:13 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: DATA
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d9443c01a7336-269803169c7sm13423145ad.115 - gsmtp
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Date: Thu, 18 Sep 2025 07:55:09 +0200
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: To: alfazkhokhar333@gmail.com
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: From: Alfaz Khokhar <akfreelancer786@gmail.com>
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Subject: Your Account Details
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Message-ID: <KuTP1XXj9ECbY70GVwGpFGkvT8T4b0SXhplmFuiSU@localhost>
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: 
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Hello Alfaz Khokhar,<br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Your account has been created successfully.<br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Login Details:<br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: User ID: alfazkhokhar333@gmail.com<br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Password: Alfaz@123<br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Please keep your credentials safe.
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: 
+
+[18-Sep-2025 07:55:14 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: .
+
+[18-Sep-2025 07:55:16 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1758174997 d9443c01a7336-269803169c7sm13423145ad.115 - gsmtp
+
+[18-Sep-2025 07:55:16 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[18-Sep-2025 07:55:16 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d9443c01a7336-269803169c7sm13423145ad.115 - gsmtp
+
+[18-Sep-2025 07:55:17 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-77cfc24739fsm1185130b3a.28 - gsmtp
+
+[18-Sep-2025 07:55:17 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-Sep-2025 07:55:17 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:4080:8392:8f1d:e96f:cfaf:8492:dc8d]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Sep-2025 07:55:17 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[18-Sep-2025 07:55:17 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-Sep-2025 07:55:19 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-Sep-2025 07:55:19 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:4080:8392:8f1d:e96f:cfaf:8492:dc8d]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Sep-2025 07:55:19 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[18-Sep-2025 07:55:19 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Sep-2025 07:55:19 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-Sep-2025 07:55:20 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Sep-2025 07:55:20 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-Sep-2025 07:55:20 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-Sep-2025 07:55:20 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<akfreelancer786@gmail.com>
+
+[18-Sep-2025 07:55:20 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-77cfc24739fsm1185130b3a.28 - gsmtp
+
+[18-Sep-2025 07:55:20 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: RCPT TO:<arifbhaikhokhar629@gmail.com>
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-77cfc24739fsm1185130b3a.28 - gsmtp
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: DATA
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-77cfc24739fsm1185130b3a.28 - gsmtp
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Date: Thu, 18 Sep 2025 07:55:16 +0200
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: To: arifbhaikhokhar629@gmail.com
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: From: Alfaz Khokhar <akfreelancer786@gmail.com>
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Subject: New User Added
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Message-ID: <kHKclYZAdWDr90JZXtcTuAybxtemV0ReYRGUerNaXDg@localhost>
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: 
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: New User Details<br />
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: User ID: alfazkhokhar333@gmail.com<br />
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Password: Alfaz@123<br />
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Role: Employee
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: 
+
+[18-Sep-2025 07:55:21 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: .
+
+[18-Sep-2025 07:55:22 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1758175003 d2e1a72fcca58-77cfc24739fsm1185130b3a.28 - gsmtp
+
+[18-Sep-2025 07:55:22 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[18-Sep-2025 07:55:22 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-77cfc24739fsm1185130b3a.28 - gsmtp
+
+[18-Sep-2025 07:56:08 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 220 smtp.gmail.com ESMTP d2e1a72fcca58-77cff22af5asm1173661b3a.100 - gsmtp
+
+[18-Sep-2025 07:56:08 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-Sep-2025 07:56:08 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:4080:8392:8f1d:e96f:cfaf:8492:dc8d]
+250-SIZE 35882577
+250-8BITMIME
+250-STARTTLS
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Sep-2025 07:56:08 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: STARTTLS
+
+[18-Sep-2025 07:56:09 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 220 2.0.0 Ready to start TLS
+
+[18-Sep-2025 07:56:10 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: EHLO localhost
+
+[18-Sep-2025 07:56:10 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250-smtp.gmail.com at your service, [2409:4080:8392:8f1d:e96f:cfaf:8492:dc8d]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[18-Sep-2025 07:56:10 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: AUTH LOGIN
+
+[18-Sep-2025 07:56:10 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[18-Sep-2025 07:56:10 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-Sep-2025 07:56:11 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[18-Sep-2025 07:56:11 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: [credentials hidden]
+[18-Sep-2025 07:56:11 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[18-Sep-2025 07:56:11 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: MAIL FROM:<akfreelancer786@gmail.com>
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.1.0 OK d2e1a72fcca58-77cff22af5asm1173661b3a.100 - gsmtp
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: RCPT TO:<alfazkhokhar333@gmail.com>
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.1.5 OK d2e1a72fcca58-77cff22af5asm1173661b3a.100 - gsmtp
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: DATA
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 354 Go ahead d2e1a72fcca58-77cff22af5asm1173661b3a.100 - gsmtp
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Date: Thu, 18 Sep 2025 07:56:07 +0200
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: To: alfazkhokhar333@gmail.com
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: From: Alfaz Khokhar <akfreelancer786@gmail.com>
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Subject: New Task Assigned: Employee Management (CRUD)
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Message-ID: <aG8PpbTKW2Gb2i68GRtjyFgbMU1VSzPNQ7YF2U78DRg@localhost>
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: X-Mailer: PHPMailer 6.10.0 (https://github.com/PHPMailer/PHPMailer)
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: MIME-Version: 1.0
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Content-Type: text/html; charset=iso-8859-1
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: 
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Hello Alfaz Khokhar,<br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: You have been assigned a new task.<br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Task Details:<br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Title: Employee Management (CRUD)<br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Start Date: 2025-08-19<br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Due Date: 2025-08-22<br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: <br />
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: Please log in to the system for more details.
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: 
+
+[18-Sep-2025 07:56:12 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: .
+
+[18-Sep-2025 07:56:13 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 250 2.0.0 OK  1758175054 d2e1a72fcca58-77cff22af5asm1173661b3a.100 - gsmtp
+
+[18-Sep-2025 07:56:13 Europe/Berlin] SMTP Debug: CLIENT -> SERVER: QUIT
+
+[18-Sep-2025 07:56:14 Europe/Berlin] SMTP Debug: SERVER -> CLIENT: 221 2.0.0 closing connection d2e1a72fcca58-77cff22af5asm1173661b3a.100 - gsmtp
+

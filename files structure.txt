@@ -1,0 +1,33 @@
+MVC_Structure/
+├─ app/
+│  ├─ controllers/
+│  │  ├─ AuthController.php
+│  │  ├─ UserController.php
+│  │  └─ TaskController.php  
+│  ├─ models/
+│  │  └─ User.php
+│  │  └─ task.php
+│  └─ views/
+│     ├─ layouts/
+│     │  ├─ header.php
+│     │  └─ footer.php
+│     ├─ auth/
+│     │  └─ login.php
+│     └─ users/
+│        ├─ list.php
+│        ├─ add.php
+│        ├─ edit.php
+│        ├─ delete.php
+│        └─ form.php      
+├─ config/
+│  └─ db.php
+│  └─ Mail.php
+├─ public/
+│  ├─ assets/       // move your css/images here
+│  └─ index.php     // router
+├─ services/
+│  ├─ vendor/        ← Composer + PHPMailer
+│  ├─ sendmail.php   ← Your mail function
+│  └─ .env
+above is my folder structure of MVC project. i want transfer my  project into MVC structure. we can perform step by step this. now i will give you login.php, db.php, auth.php and dashbord.php.
+using this create mvc structure file. and give me code and files files path. do not extra work i will give you instruction for it.
